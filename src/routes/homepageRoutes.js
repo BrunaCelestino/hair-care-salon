@@ -4,7 +4,7 @@ const router = express.Router();
 
 const controller = require('../controllers/homepageController');
 
-router.get('/home', controller.getHomepage);
+router.get('/', controller.getHomepage);
 router.get('/client/profile', controller.getProfilePage);
 router.get('/client/profile/settings', controller.getProfileSettingsPage);
 router.get('/client/signup', controller.getSignupPage);

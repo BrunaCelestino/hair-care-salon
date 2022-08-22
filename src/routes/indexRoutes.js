@@ -2,7 +2,7 @@ const express = require('express');
 
 const routes = express.Router();
 
-routes.get('/', (req, res) => {
+routes.get('/about', (req, res) => {
   res.status(200).json({
     title: 'HairCare-Salon',
     version: '1.0.0',
